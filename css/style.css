@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* common css */
+a, li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+/* common css end */
+
+
+
+nav{
+
+    background: #FAE3B6;
+
+}
+.container{
+    width: 1350px;
+    margin: 0px auto;
+}
+.box{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+   
+}
+
+/* menu */
+.menu{
+    width: 55%;
+  
+}
+.menu ul{
+    display: flex;
+    column-gap: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* button start */
+.button{
+    width: 25%;
+   
+}
+.button a{
+    color: black;
+    font-size: 24px;
+    padding: 10px 30px;
+    background-color: #FDBB57;
+    border-radius: 10px;
+    column-gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/*  navbar closed */
+
+.banner{
+    display: flex;
+    padding-top: 130px;
+}
+
+.partone{
+    width: 50%;
+    
+}
+.h1{
+    width: 435px;
+    color: black;
+    font-size: 64px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-family:"Poppins", sans-serif;
+}
+.pera{
+    width: 460px;
+    font-size: 22px;
+    padding-bottom: 100px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+.banner a{
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    padding: 25px 85px;
+    border-radius: 10px;
+
+}
+.parttwo{
+    width: 50%;
+    
+}
+.parttwo img{
+    width: 627px;
+    height: 674px;
+}
+
+/* collection part */
+
+.collection .container h2{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.collection-cart{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+ .collection-cart img{
+    width: 100%;
+}
+.overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.4);
+    top: 100%;
+    left: 0;
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.overly a{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    background: white;
+    padding: 10px 108px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: #FDBB57 solid 1.5px;
+   
+}
+.collection .collection-cart:hover .overly{
+    top: 0;
+
+}
+.collection{
+    padding: 220px 0px;
+}
+.one{
+    width: 350px;
+    height: 400px;
+}
+
+/* NEW FEASHON PART */
+.feashon{
+   padding-bottom: 300px;
+}
+.feation-container .box{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    padding-left: 110px;
+}
+.box .right h2{
+    
+    width: 440px;
+    height: 160px;
+    font-size: 64px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    padding-bottom: 65px;
+}
+.box .right p{
+    width: 440px;
+    right: 185px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.feashon .feation-container{
+    position: relative;
+}
+.fun-fact{
+    width: 790px;
+    height: 280px;
+    background: #FEECC8;
+    padding-bottom: 0;
+    bottom: -190px;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fun-fact div h2 {
+    font-family: "Podkova", serif;
+    font-weight: 700;
+    font-size: 64px;
+
+}
+.fun-fact div p{
+    font-family: "Podkova", serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+.fun-fact div{
+     border-right: rgba(0, 0, 0, 0.6) solid 2px;
+     padding-right: 30px;
+}
+.fun-fact div:last-child{
+    border-right: 0px;
+    padding-right: 0px;
+}
+
+/* seller-part */
+.seller{
+    background: #CFA485;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+.seller .container{
+   
+   
+}
+
+.seller .container .box{
+    display: flex;
+    
+}
+.seller .container .box .left{
+    width: 40%;
+    
+}
+.seller .container .box .left h1{
+    width: 440px;
+    height: 160px;
+    font-size: 64px;
+    font-family:  "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    padding-bottom: 45px;
+    color: white;
+    text-align: left;
+}
+.seller .container .box .left p{
+    width: 440px;
+    height: 270px;
+    font-size: 24px;
+    font-family:  "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    color: white;
+    height: 270px;
+    font-size: 24px;
+    font-family:  "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 40px;
+    text-align: left;
+
+}
+.seller .container .box .left a{
+    color: white;
+    font-size: 24px;
+    font-family: "Podkova", serif;
+    font-weight: 500px;
+    padding: 25px 85px;
+    background: black;
+    border-radius: 10px;
+    text-align: center;
+}
+.seller .container .box .right{
+    width: 60%;
+    display: flex;
+}
+.seller .container .box .right .shart{
+    width: 370px;
+    height: 550px;
+    background: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    
+}
+.seller .container .box .right .shart img{
+    width: 370px;
+    height: 424px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
